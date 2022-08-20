@@ -20,8 +20,9 @@ import {
   stopHover,
 } from "../../redux/animateHover/animateHoverActions";
 import BackgroundImage from "../../assets/images/background-image.jpeg";
-import SubBackgroundGif from "../../assets/gifs/blossom-falling.gif";
-import BlossomBranch from "../../assets/images/blossom-branch.png";
+// import SubBackgroundGif from "../../assets/gifs/blossom-falling.gif";
+import SubBackgroundGif from "../../assets/gifs/blossom-gif.webp";
+// import BlossomBranch from "../../assets/images/blossom-branch.png";
 
 const Banner = () => {
   const dispatch = useDispatch();
@@ -70,12 +71,12 @@ const Banner = () => {
             alt="background-gif"
             className="absolute w-full h-full left-0 top-0 object-cover"
           />
-          <img
-            src={BlossomBranch}
-            alt="blossom-branch"
-            className="absolute w-full xl:w-6/12 h-auto left-0 top-0  object-contain"
-            style={{ transform: "scaleX(-1)" }}
-          />
+          {/*<img*/}
+          {/*  src={BlossomBranch}*/}
+          {/*  alt="blossom-branch"*/}
+          {/*  className="absolute w-full xl:w-6/12 h-auto left-0 top-0  object-contain"*/}
+          {/*  style={{ transform: "scaleX(-1)" }}*/}
+          {/*/>*/}
         </div>
       </div>
 

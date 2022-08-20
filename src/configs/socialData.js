@@ -9,10 +9,10 @@ export const socialData = [
   // },
   {
     icon: TwitterLogo,
-    link: "",
+    link: "https://twitter.com/sukilearnstofly",
   },
   {
     icon: EtherscanLogo,
-    link: "",
+    link: "https://etherscan.io",
   },
 ];
