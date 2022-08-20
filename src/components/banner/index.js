@@ -117,8 +117,8 @@ const Banner = () => {
 
             <div className="flex flex-col justify-center items-center">
               <h1 className="text-2xl text-white font-bold text-center lg:text-4xl xl:text-6xl">
-                Lorem ipsum{" "}
-                <span className="font-semibold text-pink">dolor sit amet.</span>
+                Together, let's
+                <span className="font-semibold text-pink"> fly</span>
               </h1>
               <h2 className="text-white text-center text-base lg:text-lg xl:text-2xl mt-3">
                 Suki invites you to join her on a world of adventures. 5000
