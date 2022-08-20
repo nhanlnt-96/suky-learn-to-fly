@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import Logo from "../../assets/images/Sakura.svg";
+import Logo from "../../assets/images/sakura-white-border.png";
 import Button from "../button";
 // import { headerMenu } from "../../configs";
 import { useDispatch, useSelector } from "react-redux";
@@ -30,11 +30,7 @@ const Header = ({ setHeaderRef }) => {
       className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded"
     >
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a
-          href="/"
-          className="flex items-center z-10 p-1 mr-3"
-          style={{ backgroundColor: "rgba(255, 255, 255, .75)" }}
-        >
+        <a href="/" className="flex items-center z-10 p-1 mr-3">
           <img src={Logo} className="h-10" alt="Suky Learn to Fly" />
         </a>
 
