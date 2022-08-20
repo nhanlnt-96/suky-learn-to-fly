@@ -6,22 +6,22 @@
     background-color: rgba(0, 0, 0, .4);
 
     &-container {
-      //max-width: 200px;
-      max-width: 100px;
+      max-width: 200px;
+      //max-width: 100px;
       width: 100%;
 
-      //@media (min-width: 768px) {
-      //  max-width: 250px;
-      //}
-      //
-      //@media (min-width: 1200px) {
-      //  max-width: 400px;
-      //}
+      @media (min-width: 768px) {
+        max-width: 250px;
+      }
+
+      @media (min-width: 1200px) {
+        max-width: 400px;
+      }
     }
 
     &-wrapper {
-      //padding-bottom: calc(133 / 400 * 100%);
-      padding-bottom: 100%;
+      padding-bottom: calc(133 / 400 * 100%);
+      //padding-bottom: 100%;
     }
   }
 }

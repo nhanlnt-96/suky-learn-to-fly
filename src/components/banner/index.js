@@ -5,7 +5,7 @@ import Header from "../header";
 // link to download video below
 // https://drive.google.com/file/d/1UHKs-pAWPdIlklmpQbegXTmYM-IUMooJ/view?usp=sharing. Video below is deleted to decrease storage to push to Github
 // import BannerVideo from "../../assets/videos/cherry-blossom.mp4";
-import BannerImage from "../../assets/images/Sakura.svg";
+import BannerImage from "../../assets/images/logo-1-trans.png";
 import Button from "../button";
 import CountDown from "../countDown";
 import MintBox from "../mintBox";
@@ -13,13 +13,13 @@ import { useDispatch, useSelector } from "react-redux";
 import Social from "../social";
 import { connect } from "../../redux/blockchain/blockchainActions";
 import { fetchData } from "../../redux/data/dataActions";
-import Loading from "../loading";
+// import Loading from "../loading";
 import ToastNotification from "../toastNotification";
 import {
   startHover,
   stopHover,
 } from "../../redux/animateHover/animateHoverActions";
-import BackgroundImage from "../../assets/images/background-image.png";
+import BackgroundImage from "../../assets/images/background-image.jpeg";
 import SubBackgroundGif from "../../assets/gifs/blossom-falling.gif";
 
 const Banner = () => {
@@ -57,6 +57,11 @@ const Banner = () => {
           <img
             src={BackgroundImage}
             alt="background-image"
+            className="absolute w-full h-full left-0 top-0 object-cover"
+          />
+          <img
+            src={SubBackgroundGif}
+            alt="background-gif"
             className="absolute w-full h-full left-0 top-0 object-cover"
           />
           <img
@@ -109,9 +114,9 @@ const Banner = () => {
                 <span className="font-semibold text-pink">dolor sit amet.</span>
               </h1>
               <h2 className="text-white text-center text-base lg:text-lg xl:text-2xl mt-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                doloribus ipsam laboriosam magni nesciunt pariatur quod rem
-                similique temporibus ut?
+                Suki invites you to join her on a world of adventures. 5000
+                unique characters inspired by fantasy and slice-of-life anime.
+                Come with us on this journey?
               </h2>
             </div>
 

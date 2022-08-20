@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import Logo from "../../assets/images/Sakura.svg";
+import Logo from "../../assets/images/logo-1.png";
 import Button from "../button";
 // import { headerMenu } from "../../configs";
 import { useDispatch, useSelector } from "react-redux";
