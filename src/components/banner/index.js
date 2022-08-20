@@ -73,7 +73,7 @@ const Banner = () => {
           <img
             src={BlossomBranch}
             alt="blossom-branch"
-            className="absolute w-6/12 h-auto left-0 top-0  object-contain"
+            className="absolute w-full xl:w-6/12 h-auto left-0 top-0  object-contain"
             style={{ transform: "scaleX(-1)" }}
           />
         </div>
