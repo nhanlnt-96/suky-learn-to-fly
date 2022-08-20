@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: pmingliu-regular;
+    src: url(PMINGLIU.ttf);
+}
+
+* {
+    font-family: 'pmingliu-regular', sans-serif;
+}
+
+iframe {
+    pointer-events: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #7badf9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f3b0ea;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #feeee2;
+}
