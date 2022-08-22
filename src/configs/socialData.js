@@ -13,6 +13,6 @@ export const socialData = [
   },
   {
     icon: EtherscanLogo,
-    link: "https://etherscan.io",
+    link: "https://etherscan.io/address/0x39223e2596bf8e1de3894f66947cacc614c24a2f#writeContract",
   },
 ];
