@@ -5,6 +5,7 @@ import Button from "../button";
 import { useDispatch, useSelector } from "react-redux";
 import { connect } from "../../redux/blockchain/blockchainActions";
 import { fetchData } from "../../redux/data/dataActions";
+import { maxWidth } from "tailwindcss/lib/plugins";
 
 const Header = ({ setHeaderRef }) => {
   const dispatch = useDispatch();
@@ -40,6 +41,7 @@ const Header = ({ setHeaderRef }) => {
               label={"Connect"}
               className={"mr-2 lg:mr-0"}
               action={onConnectWalletBtnClick}
+              style={{ maxWidth: "unset" }}
             />
           )}
           {/*<button*/}

@@ -6,7 +6,13 @@ import React from "react";
 //   stopHover,
 // } from "../../redux/animateHover/animateHoverActions";
 
-const Button = ({ label, action, disabled = false, className = "" }) => {
+const Button = ({
+  label,
+  action,
+  disabled = false,
+  className = "",
+  style = {},
+}) => {
   // const dispatch = useDispatch();
 
   return (
@@ -16,6 +22,7 @@ const Button = ({ label, action, disabled = false, className = "" }) => {
       disabled={disabled}
       className={`py-1.5 px-3 text-base font-bold md:text-lg text-white outline-none relative button-comp ${className}`}
       onClick={(e) => action(e)}
+      style={style}
     >
       {label}
     </button>
