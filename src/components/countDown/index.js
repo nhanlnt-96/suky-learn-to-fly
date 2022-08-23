@@ -40,30 +40,31 @@ const CountDown = ({ target }) => {
   });
   return (
     <div className="w-full flex flex-col justify-center items-center countdown-container">
-      <p className="countdown-title">coming soon</p>
-      <section>
-        <ul>
-          <li>
-            <span className="hours time-numbers">
-              {hours >= 10 ? hours : `0${hours}`}
-            </span>
-            <p className="timeRefHours time-description">hours</p>
-          </li>
-          <li>
-            <span className="minutes time-numbers">
-              {" "}
-              {minutes >= 10 ? minutes : `0${minutes}`}
-            </span>
-            <p className="timeRefMinutes time-description">minutes</p>
-          </li>
-          <li>
-            <span className="seconds time-numbers yellow-text">
-              {seconds >= 10 ? seconds : `0${seconds}`}
-            </span>
-            <p className="timeRefSeconds time-description">seconds</p>
-          </li>
-        </ul>
-      </section>
+      {/*<p className="countdown-title">coming soon</p>*/}
+      <p className="countdown-title">sold out</p>
+      {/*<section>*/}
+      {/*  <ul>*/}
+      {/*    <li>*/}
+      {/*      <span className="hours time-numbers">*/}
+      {/*        {hours >= 10 ? hours : `0${hours}`}*/}
+      {/*      </span>*/}
+      {/*      <p className="timeRefHours time-description">hours</p>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <span className="minutes time-numbers">*/}
+      {/*        {" "}*/}
+      {/*        {minutes >= 10 ? minutes : `0${minutes}`}*/}
+      {/*      </span>*/}
+      {/*      <p className="timeRefMinutes time-description">minutes</p>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <span className="seconds time-numbers yellow-text">*/}
+      {/*        {seconds >= 10 ? seconds : `0${seconds}`}*/}
+      {/*      </span>*/}
+      {/*      <p className="timeRefSeconds time-description">seconds</p>*/}
+      {/*    </li>*/}
+      {/*  </ul>*/}
+      {/*</section>*/}
     </div>
   );
 };
